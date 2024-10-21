@@ -12,12 +12,12 @@ Make sure you have Node.js and npm installed.
 To get started with this project, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/avantika619/Ecommerce_Task
-
-2. Navigate to the project directory:
+   git clone (https://github.com/avantika619/Ecommerce_Task.git)
+   
+3. Navigate to the project directory:
     cd React_Ecommerce
    
-3. Install the required dependencies:
+4. Install the required dependencies:
      npm install
 
  Once the dependencies are installed, you can start the development server by running
