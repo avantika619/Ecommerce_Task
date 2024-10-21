@@ -1,0 +1,69 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Make sure it appears above other content */
+  }
+  
+  .modal-content {
+    background-color: #fff; /* White background for the modal */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    width: 90%;
+    max-width: 500px; /* Max width for larger screens */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .modal-content h2 {
+    margin-top: 0; /* Remove margin from the top of the heading */
+  }
+  
+  .close-button {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove border */
+    color: #007bff; /* Bootstrap primary color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for the close button */
+    margin-bottom: 10px; /* Margin below the button */
+  }
+  
+  .close-button:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .modal-content p {
+    margin: 5px 0; /* Margins for paragraph text */
+  }
+  
+  .modal-content h3 {
+    margin-top: 15px; /* Top margin for total heading */
+    color: #333; /* Dark color for total heading */
+  }
+  
+  .modal-content div {
+    border-top: 1px solid #e5e5e5; /* Top border for products section */
+    padding-top: 10px; /* Padding for top section */
+  }
+  
+  .modal-content div:last-child {
+    border: none; /* Remove border for the last div */
+  }
+  .payment-method {
+    margin-top: 20px; /* Space above payment method section */
+  }
+  
+  .payment-method label {
+    display: block; /* Stack labels vertically */
+    margin: 5px 0; /* Margin between each label */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .payment-method input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and label text */
+  }  
